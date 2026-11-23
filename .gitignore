@@ -1,0 +1,21 @@
+# Compiled binaries and objects
+build/
+*.o
+*.exe
+*.out
+
+# Databases and generated outputs
+*.db
+*.sqlite
+*.png
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
