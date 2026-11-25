@@ -22,8 +22,3 @@ make sanitize
 - `db/` — SQLite schema (`schema.sql`)
 - `scripts/` — Synthetic trace generator & parameter-sweep analyzer
 - `traces/` — Sample and generated memory access traces
-
-## AI Usage & Verification
-> **Human-Authored Core:** Bitmask extraction (`tag` / `set` / `offset`), set-associative cache layout, and `LRU`/`FIFO` eviction policies in `src/cache.c`.  
-> **AI-Assisted:** Project scaffolding, synthetic trace generation, and `matplotlib` plotting boilerplate.  
-> **Verification:** Hand-verified against `traces/sample.trace` and compiled with `-fsanitize=address,undefined`.
